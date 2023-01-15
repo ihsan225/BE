@@ -12,8 +12,7 @@ import UsersEdit from './components/UsersEdit';
 import Book from "./components/Book";
 import BookEdit from "./components/BookEdit";
 import AddBook from "./components/AddBook";
-
-import BarangBuku from "./pages/BarangBuku";
+import Transaksi from "./components/Transaksi";
 
 function App() {
   return (
@@ -30,9 +29,8 @@ function App() {
         <Route path="/adduser" element={<AddUser />} /> 
         <Route path="/book" element={<Book />} />
         <Route path="/bookedit" element={<BookEdit />} /> 
-        <Route path="/addbook" element={<AddBook />} /> 
-
-        <Route path="/barang" element={<BarangBuku />} /> 
+        <Route path="/addbook" element={<AddBook />} />
+        <Route path="/transaksi" element={<Transaksi />} /> 
 
       </Routes>
     </BrowserRouter>

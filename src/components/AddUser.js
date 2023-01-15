@@ -12,7 +12,9 @@ export default function AddUser() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+
     const history = useNavigate();
+
     const Register = async (e) => {
         e.preventDefault();
         let result = await fetch("http://127.0.0.1:8000/api/register", {
@@ -26,6 +28,7 @@ export default function AddUser() {
                 email: email,
                 password: password
             }),
+            
         }).then((res) => res.json())
             .then((json) => {
                 Swal.fire({

@@ -11,9 +11,9 @@
 }
 
 .about > form table > tr > td, .about > table > tr > td {
-    font-size: 1.5rem;
-    font-weight: 300;
-    padding: 5px;
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 3px;
     width: 500px;
 }
 

@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
+import ListBook from './ListBuku'
 
 function Dashboard() {
     return (
         <div>
             <Navbar />
-            <h1 className='title'>Dashboard</h1>
-            <h1 className='title'>Dashboard</h1>
-            <h1 className='title'>Dashboard</h1>
+            <ListBook />
         </div>
     )
 }

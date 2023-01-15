@@ -30,6 +30,7 @@ export default function Book() {
         }
       );
   }
+  
   const edit = (id_buku) => {
     history('/bookedit', { state: { id_buku } });
   }

@@ -5,15 +5,14 @@ import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import Navbar from './Navbar';
 
-
 export default function AddBook() {
     const [kode_buku, setKode] = useState('');
     const [judul_buku, setJudul] = useState('');
     const [genre_buku, setGenre] = useState('');
     // const [gambar, setGambar] = useState('');
-    const [data, setData] = useState(null);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    // const [data, setData] = useState(null);
+    // const [loading, setLoading] = useState(true);
+    // const [error, setError] = useState(null);
     const history = useNavigate();
 
     const AddBook = async (e) => {
