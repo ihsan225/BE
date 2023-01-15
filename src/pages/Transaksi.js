@@ -1,7 +1,7 @@
 import { React, useState, Alert, Col, Row, Container } from "react";
 import "../styles/Formpage.css";
 import Navbar from "../components/Navbar";
-// import Footer from '../components/Footer'
+import Footer from '../components/Footer'
 // import IntroImg from "../assets/intro-bg.jpg";
 import { Form, Button } from "react-bootstrap";
 
@@ -195,7 +195,6 @@ export default function Transaksi() {
                     </table>
                 </div>
             </div>
-            {/* <Footer /> */}
         </div>
     );
 }

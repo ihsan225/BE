@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Button, Form } from 'react-bootstrap';
 import { useNavigate, useLocation } from 'react-router-dom';
 import Swal from 'sweetalert2';
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
 
 export default function UsersEdit() {
     const [data, setData] = useState([]);

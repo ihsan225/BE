@@ -2,17 +2,17 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./landingpage/Home";
 import About from "./landingpage/About";
 import Contact from "./landingpage/Contact";
-import Dashboard from "./components/Dashboard";
+import Dashboard from "./pages/Dashboard";
 import Login from "./components/Login";
 import Navbar from "./components/Navbar";
-import Register from "./components/Register";
+import Register from "./pages/Register";
 import AddUser from "./components/AddUser";
-import Users from "./components/Users";
-import UsersEdit from './components/UsersEdit';
-import Book from "./components/Book";
-import BookEdit from "./components/BookEdit";
-import AddBook from "./components/AddBook";
-import Transaksi from "./components/Transaksi";
+import Users from "./pages/Users";
+import UsersEdit from './pages/UsersEdit';
+import Book from "./pages/Book";
+import BookEdit from "./pages/BookEdit";
+import AddBook from "./pages/AddBook";
+import Transaksi from "./pages/Transaksi";
 
 function App() {
   return (

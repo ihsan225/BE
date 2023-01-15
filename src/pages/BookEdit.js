@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Button, Form } from 'react-bootstrap';
 import { useNavigate, useLocation } from 'react-router-dom';
 import Swal from 'sweetalert2';
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
 
 export default function BookEdit() {
     const [kode_buku, setKode] = useState('');
@@ -39,9 +39,9 @@ export default function BookEdit() {
             );
     }
     const UpdateBook = async (e) => {
-        const token = sessionStorage.getItem("access_token");
+        let token = sessionStorage.getItem("access_token");
         e.preventDefault();
-        e.preventDefault();
+        // e.preventDefault();
         let result = await fetch("http://127.0.0.1:8000/api/update_book", {
             method: "POST",
             headers: {
@@ -54,7 +54,7 @@ export default function BookEdit() {
                 judul_buku: judul_buku,
                 genre_buku: genre_buku,
                 // gambar: gambar,
-                id_buku : BookId
+                // id_buku : BookId
             }),
         }).then((res) => res.json())
             .then((json) => {

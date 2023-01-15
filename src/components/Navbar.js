@@ -33,7 +33,6 @@ const navbar = () => {
                         <Nav className="me-auto">
                         <Nav.Link href="/users">Users</Nav.Link>
                         <Nav.Link href="/book">Book</Nav.Link>
-                        <Nav.Link href="/detailbuku">Detail Buku</Nav.Link>
                         </Nav>
                         <Nav>
                             <Nav.Link onClick={logout}>Logout</Nav.Link>

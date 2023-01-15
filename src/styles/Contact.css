@@ -31,7 +31,7 @@
 .hero .contact {
     position: absolute;
     transform: translate(-50%);
-    width: 70%;
+    width: 100%;
     top: 15%;
     left: 50%;
     text-align: center;
@@ -39,28 +39,18 @@
     font-weight: 200;
 }
 
-.contact{
+/* .contact{
     display: flex;
     align-items: center;
     flex-direction: column;
-}
+} */
 
-.hero .contact h1 {
+/* .hero .contact h1 {
     font-size: 3rem;
     padding: 0.6rem 0 1.5rem;
-}
+} */
 
-table{
-    width: auto;
-}
 
-.contact > table > tr > td {
-    padding: 15px;
-    color:white;
-    text-align: left;
-    font-size: 2rem;
-    font-weight: 300;
-}
 
 /* .content .btn {
     margin: 1rem 0.2rem;
@@ -77,14 +67,14 @@ table{
 
     .hero .contact {
         transform: translate(-50%);
-        width: 70%;
+        width: 100%;
         top: 15%;
     }
 
-    iframe{
+    /* iframe{
         width:354px ;
         height: 199px;
-    }
+    } */
     
     /* .button{
         display: flex;
@@ -110,3 +100,4 @@ table{
 
     } */
 }
+

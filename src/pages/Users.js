@@ -2,7 +2,7 @@ import { React, useEffect, useState } from 'react'
 import { Button, Table } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
 
 
 export default function Users() {
